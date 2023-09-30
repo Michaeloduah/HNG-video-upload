@@ -1,0 +1,28 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "A screen recording extension",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dearie-cyber/Chrome-extension.git"
+  },
+  "author": "Dearie-de-cybek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dearie-cyber/Chrome-extension/issues"
+  },
+  "homepage": "https://github.com/Dearie-cyber/Chrome-extension#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "multer": "^1.4.5-lts.1",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.1"
+  }
+}
