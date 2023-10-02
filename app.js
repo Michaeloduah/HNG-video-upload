@@ -187,8 +187,8 @@ class Whisper {
   }
 }
 
-// module.exports = Whisper;
+module.exports = Whisper;
 
-app.listen(port, () => {
-  console.log(`App running on port http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`App running on port http://localhost:${port}`);
+// });
