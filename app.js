@@ -9,7 +9,7 @@ const path = require("path");
 const { SpeechClient } = require("@google-cloud/speech");
 
 const app = express();
-const port = 5000;
+const port = 3000;
 
 // Configure multer to store uploaded files
 const storage = multer.memoryStorage();
